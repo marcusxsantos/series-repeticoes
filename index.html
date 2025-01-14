@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Lista de Exercícios</h1>
+        <button id="resetButton" class="btn btn-danger mb-4">Resetar Marcações</button>
+
+        <!-- Accordion para Séries -->
+        <div class="accordion" id="accordionSeries">
+            <!-- Série 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Série 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionSeries">
+                    <div class="accordion-body">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Supino reto máquina</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise1" data-exercise="Supino reto máquina">
+                                    <label class="form-check-label" for="exercise1">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Supino 45° HBC + Crucifixo HBC 45°</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise2" data-exercise="Supino 45° HBC + Crucifixo HBC 45°">
+                                    <label class="form-check-label" for="exercise2">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cross Over Polia Alta</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise3" data-exercise="Cross Over Polia Alta">
+                                    <label class="form-check-label" for="exercise3">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Crucifixo Máquina</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise4" data-exercise="Crucifixo Máquina">
+                                    <label class="form-check-label" for="exercise4">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Tríceps Testa HBC + Supino Fechado HBC</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise5" data-exercise="Tríceps Testa HBC + Supino Fechado HBC">
+                                    <label class="form-check-label" for="exercise5">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Tríceps pronado invertido no Cross</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise6" data-exercise="Tríceps pronado invertido no Cross">
+                                    <label class="form-check-label" for="exercise6">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Tríceps Francês HBC</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise7" data-exercise="Tríceps Francês HBC">
+                                    <label class="form-check-label" for="exercise7">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Série 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSerie2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSerie2" aria-expanded="false" aria-controls="collapseSerie2">
+                        Série 2
+                    </button>
+                </h2>
+                <div id="collapseSerie2" class="accordion-collapse collapse" aria-labelledby="headingSerie2" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+            
+                        <!-- Card: Puxada Aberta Pronada Pulley -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Puxada Aberta Pronada Pulley</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_1" data-exercise="Puxada Aberta Pronada Pulley">
+                                    <label class="form-check-label" for="exerciseSerie2_1">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Remada Máquina P.P. -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Remada Máquina P.P.</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_2" data-exercise="Remada Máquina P.P.">
+                                    <label class="form-check-label" for="exerciseSerie2_2">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Extensão de Ombros no Cross -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Extensão de Ombros no Cross</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_3" data-exercise="Extensão de Ombros no Cross">
+                                    <label class="form-check-label" for="exerciseSerie2_3">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Remada Cavalo P.N -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Remada Cavalo P.N</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_4" data-exercise="Remada Cavalo P.N">
+                                    <label class="form-check-label" for="exerciseSerie2_4">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Bíceps Direto Cross -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Bíceps Direto Cross</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_5" data-exercise="Bíceps Direto Cross">
+                                    <label class="form-check-label" for="exerciseSerie2_5">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Bíceps Neutro Alt. HBC -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Bíceps Neutro Alt. HBC</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_6" data-exercise="Bíceps Neutro Alt. HBC">
+                                    <label class="form-check-label" for="exerciseSerie2_6">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Bíceps Concentrado HBC -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Bíceps Concentrado HBC</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie2_7" data-exercise="Bíceps Concentrado HBC">
+                                    <label class="form-check-label" for="exerciseSerie2_7">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSerie3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSerie3" aria-expanded="false" aria-controls="collapseSerie3">
+                        Série 3
+                    </button>
+                </h2>
+                <div id="collapseSerie3" class="accordion-collapse collapse" aria-labelledby="headingSerie3" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+            
+                        <!-- Card: Agachamento HBC -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Agachamento HBC</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_1" data-exercise="Agachamento HBC">
+                                    <label class="form-check-label" for="exerciseSerie3_1">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Leg Horizontal Iso 2" -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Leg Horizontal Iso 2"</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_2" data-exercise="Leg Horizontal Iso 2">
+                                    <label class="form-check-label" for="exerciseSerie3_2">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Cadeira extensora -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cadeira extensora</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_3" data-exercise="Cadeira extensora">
+                                    <label class="form-check-label" for="exerciseSerie3_3">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Cadeira flexora -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cadeira flexora</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_4" data-exercise="Cadeira flexora">
+                                    <label class="form-check-label" for="exerciseSerie3_4">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Cadeira abdutora -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cadeira abdutora</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_5" data-exercise="Cadeira abdutora">
+                                    <label class="form-check-label" for="exerciseSerie3_5">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Desenvolvimento HBC -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Desenvolvimento HBC</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_6" data-exercise="Desenvolvimento HBC">
+                                    <label class="form-check-label" for="exerciseSerie3_6">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Abdução + Flexão de Ombros -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Abdução + Flexão de Ombros</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_7" data-exercise="Abdução + Flexão de Ombros">
+                                    <label class="form-check-label" for="exerciseSerie3_7">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Card: Remada Alta no Cross -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Remada Alta no Cross</h5>
+                                <p class="card-text">Séries: </p>
+                                <p class="card-text">Repetições por série: </p>
+                                <a href="#" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exerciseSerie3_8" data-exercise="Remada Alta no Cross">
+                                    <label class="form-check-label" for="exerciseSerie3_8">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exercícios Complementares -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Exercícios Complementares
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionSeries">
+                    <div class="accordion-body">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Alongamento</h5>
+                                <p class="card-text">Duração: 10 minutos</p>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise7" data-exercise="Alongamento">
+                                    <label class="form-check-label" for="exercise7">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Yoga</h5>
+                                <p class="card-text">Duração: 15 minutos</p>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-primary">Ver Vídeo</a>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" id="exercise8" data-exercise="Yoga">
+                                    <label class="form-check-label" for="exercise8">Realizado</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para carregar o estado dos checkboxes
+        function loadCheckboxStates() {
+            document.querySelectorAll('.form-check-input').forEach(checkbox => {
+                const exercise = checkbox.dataset.exercise;
+                const state = localStorage.getItem(exercise);
+                checkbox.checked = state === 'true';
+
+                checkbox.addEventListener('change', () => {
+                    localStorage.setItem(exercise, checkbox.checked);
+                });
+            });
+        }
+
+        // Função para resetar as marcações
+        document.getElementById('resetButton').addEventListener('click', () => {
+            document.querySelectorAll('.form-check-input').forEach(checkbox => {
+                checkbox.checked = false;
+                localStorage.removeItem(checkbox.dataset.exercise);
+            });
+        });
+
+        // Carregar os estados ao iniciar
+        document.addEventListener('DOMContentLoaded', loadCheckboxStates);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
